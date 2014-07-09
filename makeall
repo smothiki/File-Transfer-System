@@ -1,0 +1,14 @@
+clear
+cd FTS_Client
+make
+cp fts_client ..
+cd ..
+cd FTS_Server
+make
+cp fts_server ..
+cd ..
+cd Server
+make
+cp server ..
+cd ..
+

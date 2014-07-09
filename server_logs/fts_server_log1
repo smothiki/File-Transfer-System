@@ -1,0 +1,14 @@
+rcd tmp
+rpwd
+bin
+mget *
+mput lfs-full.xml fts_server lfs-html.xml fts_client
+bye
+mget *
+rcd tmp
+bin
+mget *
+mput lfs-full.xml fts_server lfs-html.xml fts_client
+put fts_client
+get fts_client
+bye

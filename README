@@ -1,0 +1,5 @@
+File Transfer System(FTS) :Undergrad networking project
+
+Used socket library and linux system calls .
+Provides Logging for each and every call .
+If the log file exceeds 50 lines logging moves to next file in the series and deletes older files if the file count reaches 10 

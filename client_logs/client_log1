@@ -1,0 +1,10 @@
+mget *
+n
+rcd tmp
+lcd tmp
+bin
+mget *
+mput *
+put fts_client
+get fts_client
+bye
